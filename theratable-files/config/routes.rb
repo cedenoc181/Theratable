@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :payments
+  resources :schedules
   resources :bookings
   resources :sessions
   resources :flexologists

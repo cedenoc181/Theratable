@@ -12,7 +12,7 @@ class CreateUsers < ActiveRecord::Migration[7.0]
       t.integer :phone_number
       t.integer :account_id
       t.integer :client_id
-      t.integer :flex_id
+      t.integer :flexologist_id
 
       t.timestamps
     end

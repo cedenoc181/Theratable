@@ -8,7 +8,7 @@ class CreateAccounts < ActiveRecord::Migration[7.0]
       t.string :confirmation_token #Token used for email confirmation
       t.integer :user_id
       t.integer :schedule_id
-      t.integer :flex_id
+      t.integer :flexologist_id
       t.integer :client_id
       t.integer :booking_id
       t.integer :payment_id
