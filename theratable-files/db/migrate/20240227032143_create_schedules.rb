@@ -5,8 +5,8 @@ class CreateSchedules < ActiveRecord::Migration[7.0]
       t.string :end_time
       t.string :date
       t.integer :account_id
-      t.string :session_id
       t.integer :flexologist_id
+      t.integer :booking_id
 
       t.timestamps
     end

@@ -8,6 +8,9 @@ class CreateBookings < ActiveRecord::Migration[7.0]
       t.integer :schedule_id
       t.integer :session_id
       t.integer :flexologist_id
+      t.integer :client_id
+      t.integer :payment_id
+
 
       t.timestamps
     end
