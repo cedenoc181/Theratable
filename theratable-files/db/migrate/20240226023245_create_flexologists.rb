@@ -8,6 +8,7 @@ class CreateFlexologists < ActiveRecord::Migration[7.0]
       t.string :profile_pic 
       t.string :photo_gallery
       t.integer :user_id
+      t.integer :schedule_id
       t.integer :account_id
       
       t.timestamps
