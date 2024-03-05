@@ -11,6 +11,7 @@ class CreatePayments < ActiveRecord::Migration[7.0]
       t.string :billing_state
       t.string :billing_city
       t.integer :booking_id
+      t.integer :account_id
 
       t.timestamps
     end
