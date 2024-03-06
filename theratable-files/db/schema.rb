@@ -28,30 +28,11 @@ ActiveRecord::Schema[7.0].define(version: 2024_02_27_032826) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "users", force: :cascade do |t|
-    t.string "first_name"
-    t.string "last_name"
-    t.string "email"
-    t.string "password"
-    t.string "reset_password_token" 
-    t.string "confirmation_token" 
-    t.string "address"
-    t.string "address_two"
-    t.string "state", default: 'NY'
-    t.integer "zipcode"
-    t.integer "phone_number"
-    t.integer "account_id"
-    t.integer "client_id"
-    t.integer "flexologist_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
   create_table "bookings", force: :cascade do |t|
     t.string "status", default: "Not booked"
-    t.boolean "refund", default: false
-    t.boolean "paid", default: false
+    t.boolean "paid"
     t.integer "credits_paid"
+    t.boolean "credits_refunded", default: false
     t.integer "account_id"
     t.integer "schedule_id"
     t.integer "session_id"
@@ -66,7 +47,7 @@ ActiveRecord::Schema[7.0].define(version: 2024_02_27_032826) do
     t.string "injuries"
     t.string "goals"
     t.integer "credits_available"
-    t.boolean "bundle_plan", default: false
+    t.integer "credit_balance"
     t.integer "account_id"
     t.integer "user_id"
     t.integer "session_id"
@@ -90,15 +71,12 @@ ActiveRecord::Schema[7.0].define(version: 2024_02_27_032826) do
   end
 
   create_table "payments", force: :cascade do |t|
-    t.integer "sixteen_digits"
-    t.string "exp_dates"
-    t.integer "security_digits"
-    t.string "card_holder_name"
-    t.string "billing_address"
-    t.string "billing_address_2"
-    t.string "billing_zipcode"
-    t.string "billing_state"
-    t.string "billing_city"
+    t.date "date"
+    t.string "status", default: "Due"
+    t.integer "cost"
+    t.string "service", default: "60 Min Assisted Stretch Session"
+    t.integer "invoice_number"
+    t.integer "applied_credits"
     t.integer "booking_id"
     t.integer "account_id"
     t.datetime "created_at", null: false
@@ -121,8 +99,8 @@ ActiveRecord::Schema[7.0].define(version: 2024_02_27_032826) do
     t.text "description"
     t.integer "duration"
     t.integer "credits_worth"
-    t.boolean "single", default: false
-    t.boolean "bundle", default: false
+    t.boolean "credit_single", default: false
+    t.boolean "credit_bundle", default: false
     t.integer "cost"
     t.string "image"
     t.datetime "created_at", null: false

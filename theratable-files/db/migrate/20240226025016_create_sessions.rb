@@ -5,8 +5,8 @@ class CreateSessions < ActiveRecord::Migration[7.0]
       t.text :description
       t.integer :duration
       t.integer :credits_worth
-      t.boolean :single, default: false
-      t.boolean :bundle, default: false
+      t.boolean :credit_single, default: false
+      t.boolean :credit_bundle, default: false
       t.integer :cost
       t.string :image
 
