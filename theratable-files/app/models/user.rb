@@ -1,11 +1,11 @@
 class User < ApplicationRecord
-    belongs_to :account, :inverse_of => :user
+    belongs_to :account, :inverse_of :user
     accepts_nested_attributes_for :account
 
-    belongs_to :client, :inverse_of => :user
+    has_one :client, :inverse_of :user
     accepts_nested_attributes_for :client
 
-    belongs_to :flexologist, :inverse_of => :user
+    has_one :flexologist, :inverse_of :user
     accepts_nested_attributes_for :flexologist
 
     has_secure_password
