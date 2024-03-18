@@ -1,4 +1,5 @@
 class Client < ApplicationRecord
+    
     belongs_to :user, :inverse_of :client
     accepts_nested_attributes_for :user
 

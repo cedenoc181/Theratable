@@ -3,7 +3,7 @@ class CreateSchedules < ActiveRecord::Migration[7.0]
     create_table :schedules do |t|
       t.string :star_time
       t.string :end_time
-      t.string :date
+      t.string :date #should change date to scheduled_date 
       t.integer :account_id
       t.integer :flexologist_id
       t.integer :booking_id

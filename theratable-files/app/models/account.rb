@@ -17,6 +17,7 @@ class Account < ApplicationRecord
     has_many :bookings, through: :clients,  dependent: :destroy
     accepts_nested_attributes_for :bookings
     
-    has_many :payments, through: :bookings, dependent: :destroy
-    accepts_nested_attributes_for :payments
+    # its already in client, make relationship simpler, payment is more important for clients record 
+    # has_many :payments, through: :bookings, dependent: :destroy
+    # accepts_nested_attributes_for :payments
 end

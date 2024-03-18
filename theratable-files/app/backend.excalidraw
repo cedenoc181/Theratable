@@ -79,8 +79,8 @@
     },
     {
       "type": "rectangle",
-      "version": 284,
-      "versionNonce": 2058750479,
+      "version": 285,
+      "versionNonce": 711075759,
       "isDeleted": false,
       "id": "-QV6x2lwOeqTExy3V4DaK",
       "fillStyle": "solid",
@@ -89,7 +89,7 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 502.57498737284004,
+      "x": 502.876478434491,
       "y": 511.06622773318924,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
@@ -119,14 +119,14 @@
           "type": "arrow"
         }
       ],
-      "updated": 1710718577825,
+      "updated": 1710720573774,
       "link": null,
       "locked": false
     },
     {
       "type": "text",
-      "version": 73,
-      "versionNonce": 991076961,
+      "version": 75,
+      "versionNonce": 603806415,
       "isDeleted": false,
       "id": "oxLgP7WiOITXMN9EkRCq5",
       "fillStyle": "solid",
@@ -135,7 +135,7 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 595.90115924784,
+      "x": 596.202650309491,
       "y": 558.4216964831892,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
@@ -146,7 +146,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1710718577825,
+      "updated": 1710720574032,
       "link": null,
       "locked": false,
       "fontSize": 20,
@@ -157,12 +157,12 @@
       "containerId": "-QV6x2lwOeqTExy3V4DaK",
       "originalText": "user",
       "lineHeight": 1.25,
-      "baseline": 19
+      "baseline": 18
     },
     {
       "type": "rectangle",
-      "version": 329,
-      "versionNonce": 782757935,
+      "version": 330,
+      "versionNonce": 634060655,
       "isDeleted": false,
       "id": "d5w3Z93TEMToa0xSYNCtV",
       "fillStyle": "solid",
@@ -191,16 +191,20 @@
         {
           "id": "-UTE_pYGW6mAAZ3EYUN1-",
           "type": "arrow"
+        },
+        {
+          "id": "6lE4rZw8aSLF-DtWVh3Zk",
+          "type": "arrow"
         }
       ],
-      "updated": 1710718577825,
+      "updated": 1710720588499,
       "link": null,
       "locked": false
     },
     {
       "type": "rectangle",
-      "version": 137,
-      "versionNonce": 1680977473,
+      "version": 138,
+      "versionNonce": 1542121889,
       "isDeleted": false,
       "id": "DZXwRhJv6OIaUv_Dc8K2a",
       "fillStyle": "solid",
@@ -237,9 +241,13 @@
         {
           "id": "Stzz_f6PNfhV_FTltIYPn",
           "type": "arrow"
+        },
+        {
+          "id": "zBkplKx8dR68eSeZaFqSC",
+          "type": "arrow"
         }
       ],
-      "updated": 1710718577825,
+      "updated": 1710720604678,
       "link": null,
       "locked": false
     },
@@ -281,8 +289,8 @@
     },
     {
       "type": "rectangle",
-      "version": 240,
-      "versionNonce": 1363426849,
+      "version": 241,
+      "versionNonce": 1200491343,
       "isDeleted": false,
       "id": "Zw1fszfGurWSvnw27cvNq",
       "fillStyle": "solid",
@@ -315,9 +323,13 @@
         {
           "id": "YcuTCaL2G6PjVGnCQv1aR",
           "type": "arrow"
+        },
+        {
+          "id": "zBkplKx8dR68eSeZaFqSC",
+          "type": "arrow"
         }
       ],
-      "updated": 1710718577825,
+      "updated": 1710720602585,
       "link": null,
       "locked": false
     },
@@ -388,8 +400,8 @@
     },
     {
       "type": "rectangle",
-      "version": 252,
-      "versionNonce": 1703217807,
+      "version": 253,
+      "versionNonce": 1299568097,
       "isDeleted": false,
       "id": "admTSQZeG2bG04774m9V4",
       "fillStyle": "solid",
@@ -430,13 +442,9 @@
         {
           "id": "hrHXcu53m8IFGHPtiIW2U",
           "type": "arrow"
-        },
-        {
-          "id": "bmWAX50vKAU8KbZs4j78n",
-          "type": "arrow"
         }
       ],
-      "updated": 1710718577825,
+      "updated": 1710720164443,
       "link": null,
       "locked": false
     },
@@ -620,8 +628,8 @@
     },
     {
       "type": "arrow",
-      "version": 339,
-      "versionNonce": 1849147631,
+      "version": 341,
+      "versionNonce": 562065935,
       "isDeleted": false,
       "id": "k9hkc2q58kKcOYRsW_Qbw",
       "fillStyle": "solid",
@@ -630,12 +638,12 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 611.7751604128689,
+      "x": 612.0084160843013,
       "y": 509.5865800480898,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
-      "width": 2.8675186331337272,
-      "height": 216.44812598414018,
+      "width": 3.0482411404542518,
+      "height": 216.44812598414023,
       "seed": 1218500177,
       "groupIds": [],
       "frameId": null,
@@ -643,7 +651,7 @@
         "type": 2
       },
       "boundElements": [],
-      "updated": 1710718577826,
+      "updated": 1710720573774,
       "link": null,
       "locked": false,
       "startBinding": {
@@ -665,8 +673,8 @@
           0
         ],
         [
-          -2.8675186331337272,
-          -216.44812598414018
+          -3.0482411404542518,
+          -216.44812598414023
         ]
       ]
     },
@@ -856,8 +864,8 @@
     },
     {
       "type": "arrow",
-      "version": 822,
-      "versionNonce": 1035403521,
+      "version": 824,
+      "versionNonce": 1071346319,
       "isDeleted": false,
       "id": "WfnBWWAwaseWWRfwMgKr1",
       "fillStyle": "solid",
@@ -866,12 +874,12 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 745.9983354039057,
-      "y": 568.8282804410885,
+      "x": 746.2998264655566,
+      "y": 568.8199739060858,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
-      "width": 45.01510109958406,
-      "height": 1.6862846276716255,
+      "width": 44.71361003793322,
+      "height": 1.675781121956561,
       "seed": 610361069,
       "groupIds": [],
       "frameId": null,
@@ -879,7 +887,7 @@
         "type": 2
       },
       "boundElements": [],
-      "updated": 1710718577826,
+      "updated": 1710720573775,
       "link": null,
       "locked": false,
       "startBinding": {
@@ -901,8 +909,8 @@
           0
         ],
         [
-          45.01510109958406,
-          -1.6862846276716255
+          44.71361003793322,
+          -1.675781121956561
         ]
       ]
     },
@@ -960,8 +968,8 @@
     },
     {
       "type": "arrow",
-      "version": 908,
-      "versionNonce": 325321135,
+      "version": 910,
+      "versionNonce": 1762163279,
       "isDeleted": false,
       "id": "-UTE_pYGW6mAAZ3EYUN1-",
       "fillStyle": "solid",
@@ -970,12 +978,12 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 493.4868456171692,
-      "y": 573.5827809887221,
+      "x": 493.78833667882014,
+      "y": 573.5852905192571,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
-      "width": 74.38908100408196,
-      "height": 1.0206495973635583,
+      "width": 74.69057206573291,
+      "height": 1.0241251948842773,
       "seed": 41287533,
       "groupIds": [],
       "frameId": null,
@@ -983,7 +991,7 @@
         "type": 2
       },
       "boundElements": [],
-      "updated": 1710718577826,
+      "updated": 1710720573775,
       "link": null,
       "locked": false,
       "startBinding": {
@@ -1005,8 +1013,8 @@
           0
         ],
         [
-          -74.38908100408196,
-          -1.0206495973635583
+          -74.69057206573291,
+          -1.0241251948842773
         ]
       ]
     },
@@ -1060,8 +1068,8 @@
     },
     {
       "type": "line",
-      "version": 661,
-      "versionNonce": 1807874177,
+      "version": 707,
+      "versionNonce": 1534274081,
       "isDeleted": false,
       "id": "oEBhWupKKESz41bbhBQjf",
       "fillStyle": "solid",
@@ -1070,12 +1078,12 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 155.85914955638037,
-      "y": 248.5108427514214,
+      "x": 288.20179159994063,
+      "y": 248.47311711206638,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
-      "width": 334.31341368292607,
-      "height": 1.85641029405852,
+      "width": 201.9707716393658,
+      "height": 1.894135933413537,
       "seed": 484235821,
       "groupIds": [],
       "frameId": null,
@@ -1083,7 +1091,7 @@
         "type": 2
       },
       "boundElements": [],
-      "updated": 1710718577827,
+      "updated": 1710720161840,
       "link": null,
       "locked": false,
       "startBinding": null,
@@ -1097,8 +1105,8 @@
           0
         ],
         [
-          334.31341368292607,
-          1.85641029405852
+          201.9707716393658,
+          1.894135933413537
         ]
       ]
     },
@@ -4212,10 +4220,10 @@
     {
       "id": "pb9YJgrZhYVzNPIylmZt-",
       "type": "text",
-      "x": -820.8470470321919,
-      "y": 522.9110735853083,
+      "x": -813.291241352755,
+      "y": 530.1955373092593,
       "width": 730.4756469726562,
-      "height": 107.62313867646682,
+      "height": 143.4975182352891,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
@@ -4228,21 +4236,21 @@
       "frameId": null,
       "roundness": null,
       "seed": 592340129,
-      "version": 633,
-      "versionNonce": 615412847,
+      "version": 684,
+      "versionNonce": 347480079,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1710718577829,
+      "updated": 1710720909445,
       "link": null,
       "locked": false,
-      "text": "User table is specifically designed to store \nthe users personal info like name, address, contact\nand account password, each user has ",
+      "text": "User table is \nthe user migration specifically designed to store \nthe users personal info like name, address, contact\nand account password, each user has ",
       "fontSize": 28.69950364705782,
       "fontFamily": 1,
       "textAlign": "left",
       "verticalAlign": "top",
-      "baseline": 97,
+      "baseline": 133,
       "containerId": null,
-      "originalText": "User table is specifically designed to store \nthe users personal info like name, address, contact\nand account password, each user has ",
+      "originalText": "User table is \nthe user migration specifically designed to store \nthe users personal info like name, address, contact\nand account password, each user has ",
       "lineHeight": 1.25
     },
     {
@@ -4250,8 +4258,8 @@
       "type": "text",
       "x": -817.4133992880497,
       "y": 360.5176632815315,
-      "width": 880.7175903320312,
-      "height": 91.52171017846979,
+      "width": 699.7916259765625,
+      "height": 122.0289469046264,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
@@ -4264,122 +4272,30 @@
       "frameId": null,
       "roundness": null,
       "seed": 1072660623,
-      "version": 504,
-      "versionNonce": 452234753,
+      "version": 529,
+      "versionNonce": 1519378913,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1710718577829,
+      "updated": 1710720879787,
       "link": null,
       "locked": false,
-      "text": "An Account table has one User, one flex and one client, \nmultiple bookings, multiple payments and multiple schedules.\nits used as a shell that connects all peices of info related to account.",
+      "text": "An Account table has one User, one flex and one client, \nmultiple bookings, multiple payments and multiple schedules.\nthe account migration is used as a shell that connects \nall peices of info related to account.",
       "fontSize": 24.405789380925277,
       "fontFamily": 1,
       "textAlign": "left",
       "verticalAlign": "top",
-      "baseline": 83,
+      "baseline": 113,
       "containerId": null,
-      "originalText": "An Account table has one User, one flex and one client, \nmultiple bookings, multiple payments and multiple schedules.\nits used as a shell that connects all peices of info related to account.",
+      "originalText": "An Account table has one User, one flex and one client, \nmultiple bookings, multiple payments and multiple schedules.\nthe account migration is used as a shell that connects \nall peices of info related to account.",
       "lineHeight": 1.25
-    },
-    {
-      "type": "arrow",
-      "version": 1453,
-      "versionNonce": 652480143,
-      "isDeleted": false,
-      "id": "bmWAX50vKAU8KbZs4j78n",
-      "fillStyle": "solid",
-      "strokeWidth": 2,
-      "strokeStyle": "solid",
-      "roughness": 1,
-      "opacity": 100,
-      "angle": 0,
-      "x": 166.16239904006255,
-      "y": 1078.8565495668417,
-      "strokeColor": "#1e1e1e",
-      "backgroundColor": "transparent",
-      "width": 331.4113267096131,
-      "height": 0.395909734810175,
-      "seed": 411927457,
-      "groupIds": [],
-      "frameId": null,
-      "roundness": {
-        "type": 2
-      },
-      "boundElements": [],
-      "updated": 1710718577829,
-      "link": null,
-      "locked": false,
-      "startBinding": null,
-      "endBinding": {
-        "elementId": "admTSQZeG2bG04774m9V4",
-        "focus": -0.23527848504413004,
-        "gap": 15.96658797102748
-      },
-      "lastCommittedPoint": null,
-      "startArrowhead": null,
-      "endArrowhead": "arrow",
-      "points": [
-        [
-          0,
-          0
-        ],
-        [
-          331.4113267096131,
-          0.395909734810175
-        ]
-      ]
-    },
-    {
-      "type": "line",
-      "version": 956,
-      "versionNonce": 530670767,
-      "isDeleted": false,
-      "id": "BN4B59HpLt9rg4l7O8c-5",
-      "fillStyle": "solid",
-      "strokeWidth": 2,
-      "strokeStyle": "solid",
-      "roughness": 1,
-      "opacity": 100,
-      "angle": 0,
-      "x": 161.1221766552726,
-      "y": 252.52342621651366,
-      "strokeColor": "#1e1e1e",
-      "backgroundColor": "transparent",
-      "width": 2.1182360293364013,
-      "height": 828.2147376463289,
-      "seed": 1511185377,
-      "groupIds": [],
-      "frameId": null,
-      "roundness": {
-        "type": 2
-      },
-      "boundElements": [],
-      "updated": 1710718577829,
-      "link": null,
-      "locked": false,
-      "startBinding": null,
-      "endBinding": null,
-      "lastCommittedPoint": null,
-      "startArrowhead": null,
-      "endArrowhead": null,
-      "points": [
-        [
-          0,
-          0
-        ],
-        [
-          2.1182360293364013,
-          828.2147376463289
-        ]
-      ]
     },
     {
       "id": "9Uhb-96Tygs7iYRprVMIX",
       "type": "text",
-      "x": -809.9375135201375,
-      "y": 698.1422716447112,
-      "width": 913.0458374023438,
-      "height": 264.6750460138002,
+      "x": -867.6928371772083,
+      "y": 724.4002587953702,
+      "width": 1100.3076171875,
+      "height": 206.4157656257807,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
@@ -4392,21 +4308,21 @@
       "frameId": null,
       "roundness": null,
       "seed": 312424047,
-      "version": 706,
-      "versionNonce": 1586427599,
+      "version": 910,
+      "versionNonce": 21482945,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1710718577829,
+      "updated": 1710721047981,
       "link": null,
       "locked": false,
-      "text": "Client will store things such as the credits in the clients account \nthe goals and any current or previous injuries \nin terms of credits available vs balance, credits available is the credits that\nhave yet to be used in a current or future bookinng(untouched credit) \nCredit balance is credits that you have in total between future booked \nand not used credits.\n\nwhat does client belongs too? left off here!\n",
-      "fontSize": 23.52667075678224,
+      "text": "Client table belongs to a user, account & has many bookings, and payments through bookings. \nclient migration will store things such as the credits in the clients account \nthe goals and any current or previous injuries \nin terms of credits available vs balance, credits available is the credits that\nhave yet to be used in a current or future bookinng(untouched credit) \nCredit balance is credits that you have in total between future booked \nand not used credits.",
+      "fontSize": 23.590373214374935,
       "fontFamily": 1,
       "textAlign": "left",
       "verticalAlign": "top",
-      "baseline": 256,
+      "baseline": 197,
       "containerId": null,
-      "originalText": "Client will store things such as the credits in the clients account \nthe goals and any current or previous injuries \nin terms of credits available vs balance, credits available is the credits that\nhave yet to be used in a current or future bookinng(untouched credit) \nCredit balance is credits that you have in total between future booked \nand not used credits.\n\nwhat does client belongs too? left off here!\n",
+      "originalText": "Client table belongs to a user, account & has many bookings, and payments through bookings. \nclient migration will store things such as the credits in the clients account \nthe goals and any current or previous injuries \nin terms of credits available vs balance, credits available is the credits that\nhave yet to be used in a current or future bookinng(untouched credit) \nCredit balance is credits that you have in total between future booked \nand not used credits.",
       "lineHeight": 1.25
     },
     {
@@ -4948,6 +4864,256 @@
       "lastCommittedPoint": null,
       "simulatePressure": true,
       "pressures": []
+    },
+    {
+      "id": "uWL3bJ1uKYbABFOh5z8ys",
+      "type": "text",
+      "x": -906.5623716393296,
+      "y": 1002.8654902057756,
+      "width": 1104.8941650390625,
+      "height": 140.4461826897889,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 1499123631,
+      "version": 817,
+      "versionNonce": 195776289,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1710721149439,
+      "link": null,
+      "locked": false,
+      "text": "Flex table belongs to account and user, has many schedules and many bookings through schedules \nplan to add reviews into the a related table for clients to leave feedback\nflex migrationn will store additional information pertaining to flexologist like education, the location\nthey service, a bio etc. I want to make the flexologist also rep they're studio \nthat they normally practice in as well for familiarity with in the app ",
+      "fontSize": 22.471389230366224,
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "baseline": 132,
+      "containerId": null,
+      "originalText": "Flex table belongs to account and user, has many schedules and many bookings through schedules \nplan to add reviews into the a related table for clients to leave feedback\nflex migrationn will store additional information pertaining to flexologist like education, the location\nthey service, a bio etc. I want to make the flexologist also rep they're studio \nthat they normally practice in as well for familiarity with in the app ",
+      "lineHeight": 1.25
+    },
+    {
+      "id": "Z-p0afG8TsOlYTNUcUv5N",
+      "type": "rectangle",
+      "x": 504.8339612488243,
+      "y": 677.7830670338685,
+      "width": 225.59571173132292,
+      "height": 103.3712353380431,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 3
+      },
+      "seed": 1211340015,
+      "version": 105,
+      "versionNonce": 731724015,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "id": "6lE4rZw8aSLF-DtWVh3Zk",
+          "type": "arrow"
+        },
+        {
+          "id": "zBkplKx8dR68eSeZaFqSC",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1710720602585,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "ragJpPOprYnGe9W-08jyV",
+      "type": "text",
+      "x": 565.8994055202706,
+      "y": 703.8043085887367,
+      "width": 116.08030641833967,
+      "height": 42.45188521605802,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 1889948623,
+      "version": 41,
+      "versionNonce": 461502799,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1710720571474,
+      "link": null,
+      "locked": false,
+      "text": "reviews",
+      "fontSize": 33.96150817284641,
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "baseline": 30.000000000000007,
+      "containerId": null,
+      "originalText": "reviews",
+      "lineHeight": 1.25
+    },
+    {
+      "type": "arrow",
+      "version": 877,
+      "versionNonce": 1228044815,
+      "isDeleted": false,
+      "id": "6lE4rZw8aSLF-DtWVh3Zk",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "x": 399.87704149833644,
+      "y": 648.7329307589048,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "width": 99.62282666770028,
+      "height": 58.64771248995817,
+      "seed": 2130114863,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 2
+      },
+      "boundElements": [],
+      "updated": 1710720589472,
+      "link": null,
+      "locked": false,
+      "startBinding": {
+        "elementId": "d5w3Z93TEMToa0xSYNCtV",
+        "focus": 0.08353245518801304,
+        "gap": 11.170895256746121
+      },
+      "endBinding": {
+        "elementId": "Z-p0afG8TsOlYTNUcUv5N",
+        "focus": -0.40186444066547755,
+        "gap": 5.334093082787632
+      },
+      "lastCommittedPoint": null,
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          99.62282666770028,
+          58.64771248995817
+        ]
+      ]
+    },
+    {
+      "type": "arrow",
+      "version": 923,
+      "versionNonce": 1223463201,
+      "isDeleted": false,
+      "id": "zBkplKx8dR68eSeZaFqSC",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "x": 746.1184842407318,
+      "y": 706.9901899256458,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "width": 80.21355444094979,
+      "height": 72.46478321142854,
+      "seed": 621574625,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 2
+      },
+      "boundElements": [],
+      "updated": 1710720607177,
+      "link": null,
+      "locked": false,
+      "startBinding": {
+        "elementId": "Z-p0afG8TsOlYTNUcUv5N",
+        "focus": 0.6094013969299652,
+        "gap": 15.688811260584629
+      },
+      "endBinding": {
+        "elementId": "DZXwRhJv6OIaUv_Dc8K2a",
+        "focus": 0.06020834740500135,
+        "gap": 11.634873266951672
+      },
+      "lastCommittedPoint": null,
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          80.21355444094979,
+          -72.46478321142854
+        ]
+      ]
+    },
+    {
+      "id": "lVDbUFK6OXrx0q2vF2s2N",
+      "type": "text",
+      "x": -809.7744737398692,
+      "y": 256.2241322400476,
+      "width": 629.6486447780841,
+      "height": 49.01976932773906,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 69977999,
+      "version": 170,
+      "versionNonce": 1988000737,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1710721060181,
+      "link": null,
+      "locked": false,
+      "text": "Summary of table and migration ",
+      "fontSize": 39.21581546219124,
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "baseline": 35.000000000000014,
+      "containerId": null,
+      "originalText": "Summary of table and migration ",
+      "lineHeight": 1.25
     }
   ],
   "appState": {

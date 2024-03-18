@@ -5,6 +5,8 @@ class CreateFlexologists < ActiveRecord::Migration[7.0]
       t.string :bio
       t.text :experience
       t.string :education
+      # t.string :studio
+      # t.float :raiting
       t.string :profile_pic 
       t.string :photo_gallery
       t.integer :user_id
