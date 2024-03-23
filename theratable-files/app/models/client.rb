@@ -1,4 +1,6 @@
 class Client < ApplicationRecord
+
+    #client will have a relationship to new table reviews
     
     belongs_to :user, :inverse_of :client
     accepts_nested_attributes_for :user
@@ -13,10 +15,11 @@ class Client < ApplicationRecord
    accepts_nested_attributes_for :payments
 
    def credit_statement 
-        credits_booked = credit_balance - credit_available
-        "credit balance: #{credit_balance} 
-        credit available: #{credit_available}
-        credits booked: #{credits_booked}
+        credits_booked = self.credit_balance - self.credit_available
+        "Credit Statement:
+        - Credit Balance: #{self.credit_balance} 
+        - Credit Available: #{self.credit_available}
+        - Credits Booked: #{credits_booked}
        "
    end 
 end

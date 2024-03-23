@@ -22,6 +22,7 @@ class Flexologist < ApplicationRecord
     end
 
     def future_schedule
+            #SQL Query search for future appointments
         self.schedules.where("appointment_date >= ?", Date.today).order(appointment_date: :asc)
       end
       
