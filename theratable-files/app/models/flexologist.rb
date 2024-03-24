@@ -12,19 +12,6 @@ class Flexologist < ApplicationRecord
 
     belongs_to :user, :inverse_of :flexologist
     accepts_nested_attributes_for :user
-
-    def profile_card_info
-        "#{location} 
-         #{experience} 
-         #{bio}
-        "
-        # raiting and studio affiliations would be good to add
-    end
-
-    def future_schedule
-            #SQL Query search for future appointments
-        self.schedules.where("appointment_date >= ?", Date.today).order(appointment_date: :asc)
-      end
       
 
 end
