@@ -1,4 +1,4 @@
-class FlexologistDecorator < Draper::Decorator
+class ReviewDecorator < Draper::Decorator
   delegate_all
 
   # Define presentation-specific methods here. Helpers are accessed through
@@ -9,20 +9,5 @@ class FlexologistDecorator < Draper::Decorator
   #       object.created_at.strftime("%a %m/%d/%y")
   #     end
   #   end
-
-  def profile_card_info
-    "
-    #{object.location} 
-     #{object.studio}
-     #{object.rating}⭐
-    "
-      
-end
-
-def future_schedules
-  object.schedules.where("appointment_date >= ?", Date.today).order(appointment_date: :asc)
-end
-
-
 
 end

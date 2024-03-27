@@ -10,35 +10,8 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2024_02_26_022355) do
+ActiveRecord::Schema[7.0].define(version: 2023_08_29_004820) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
-
-  create_table "accounts", force: :cascade do |t|
-    t.integer "account_number"
-    t.string "account_type"
-    t.boolean "admin", default: false
-    t.integer "user_id"
-    t.integer "schedule_id"
-    t.integer "flexologist_id"
-    t.integer "client_id"
-    t.integer "booking_id"
-    t.integer "payment_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "clients", force: :cascade do |t|
-    t.string "injuries"
-    t.string "goals"
-    t.integer "credits_available"
-    t.integer "credit_balance"
-    t.integer "account_id"
-    t.integer "user_id"
-    t.integer "session_id"
-    t.integer "booking_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
 
 end

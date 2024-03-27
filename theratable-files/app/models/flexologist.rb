@@ -1,6 +1,8 @@
 class Flexologist < ApplicationRecord
 
-    # will consider adding new tables for reviews, many relationship to client 
+    has_many :reviews, dependednt_on: :destroy, inverse_of: :flexologist 
+    accepts_nested_attributes_for :reviews
+
     has_many :schedules, dependent: :destroy, inverse_of: :flexologist
     accepts_nested_attributes_for :schedules
 
