@@ -5,10 +5,12 @@ class CreateUsers < ActiveRecord::Migration[7.0]
       t.string :last_name
       t.string :email
       t.string :password
+      t.string :password_confirmation
       t.string :reset_password_token #Token used for password reset functionality
       t.string :confirmation_token #Token used for email confirmation
       t.string :address
       t.string :address_two
+      t.string :city, default: 'New York'
       t.string :state, default: 'NY'
       t.integer :zipcode
       t.integer :phone_number

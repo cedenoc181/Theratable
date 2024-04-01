@@ -1,13 +1,13 @@
 class Account < ApplicationRecord
-    has_one :user, dependent: :destroy, :inverse_of :account
+    has_one :user, dependent: :destroy, inverse_of: :account
     accepts_nested_attributes_for :user
     
     # flexologists
-    has_one :flexologist, dependent: :destroy, :inverse_of :account
+    has_one :flexologist, dependent: :destroy, inverse_of: :account
     accepts_nested_attributes_for :flexologist
     
     # Clients
-    has_one :client, dependent: :destroy, :inverse_of :account
+    has_one :client, dependent: :destroy, inverse_of: :account
     accepts_nested_attributes_for :client
 
     has_many :schedules, through: :flexologist, dependent: :destroy

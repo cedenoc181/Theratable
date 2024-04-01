@@ -1,6 +1,6 @@
 class Flexologist < ApplicationRecord
 
-    has_many :reviews, dependednt_on: :destroy, inverse_of: :flexologist 
+    has_many :reviews, dependent: :destroy, inverse_of: :flexologist 
     accepts_nested_attributes_for :reviews
 
     has_many :schedules, dependent: :destroy, inverse_of: :flexologist
@@ -9,10 +9,10 @@ class Flexologist < ApplicationRecord
     has_many :bookings, through: :schedule, dependent: :destroy
     accepts_nested_attributes_for :bookings
 
-    belongs_to :account, :inverse_of :flexologist
+    belongs_to :account, inverse_of: :flexologist
     accepts_nested_attributes_for :account
 
-    belongs_to :user, :inverse_of :flexologist
+    belongs_to :user, inverse_of: :flexologist
     accepts_nested_attributes_for :user
       
 
