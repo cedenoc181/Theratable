@@ -1,5 +1,6 @@
 # app/models/user.rb
 class User < ApplicationRecord
+
     validate :valid_zip_code_for_state
   
     belongs_to :account, inverse_of: :users
@@ -31,5 +32,6 @@ class User < ApplicationRecord
         errors.add(:zipcode, "is not valid for the specified state")
       end
     end
-  end
+    
+end
   

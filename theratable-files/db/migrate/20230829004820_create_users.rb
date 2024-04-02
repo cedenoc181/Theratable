@@ -12,7 +12,7 @@ class CreateUsers < ActiveRecord::Migration[7.0]
       t.string :address_two
       t.string :city, default: 'New York'
       t.string :state, default: 'NY'
-      t.integer :zipcode
+      t.integer :zip_code
       t.integer :phone_number
       t.integer :account_id
       t.integer :client_id
