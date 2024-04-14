@@ -12,7 +12,7 @@ class ZipCodeValidator
 
     request = Net::HTTP::Post.new(url)
     request["Host"] = "api.shipengine.com"
-    request["API-Key"] = "__YOUR_API_KEY_HERE__" # Replace with your actual API key
+    request["API-Key"] = "TEST_OKYuUdjFRoHeQGsLQCNMMtseIh5tRj4YhA8YbXlB+bU" # Replace with your actual API key
     request["Content-Type"] = "application/json"
     request.body = JSON.dump([
       {
@@ -29,6 +29,7 @@ class ZipCodeValidator
         
     response = https.request(request)
     json_response = JSON.parse(response.body)
+    puts json_response
 
     # Check if the address is valid based on the API response
     # Modify the condition based on the response structure of the ShipEngine API
